@@ -6,8 +6,8 @@
 
 body {
   height: 100vh;
-  background: url("../img/home.png");
-  background-size: 100%;
+  background: url("../img/home.png") no-repeat;
+  background-size: 120%;
   width: 100%;
   display: flex;
   align-items: center;
