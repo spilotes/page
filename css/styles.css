@@ -7,7 +7,7 @@
 body {
   height: 100vh;
   background: url("../img/home.png") no-repeat right top fixed;
-  background-size: 130%;
+  background-size: 120%;
   background-position: center bottom;
   width: 100%;
   display: flex;
