@@ -9,7 +9,6 @@ body {
   background: url("../img/home.png");
   background-size: 100%;
   background-position: bottom;
-  background-attachment: scroll;
   background-repeat: no-repeat;
   width: 100%;
   display: flex;
