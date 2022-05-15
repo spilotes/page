@@ -1,10 +1,14 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100vh;
+}
+
+body {
+  height: 105vh;
   width: 100vw;
   background: linear-gradient(to bottom right, #403f44, #1e1b32);
+  background-repeat: no-repeat;
 }
 
 .content {
@@ -17,6 +21,7 @@ body {
   left: 50%;
   transform: translate(-50%);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .content .slide img {
@@ -38,6 +43,7 @@ body {
   margin: 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  display: flex;
   transform: 0.5s ease-in-out;
 }
 
@@ -78,4 +84,11 @@ input {
 
 #slide5:checked ~ .s1 {
   margin-left: -80%;
+}
+
+@media {
+  .navigation {
+    bottom: -2rem;
+    left: 11.4rem;
+  }
 }
