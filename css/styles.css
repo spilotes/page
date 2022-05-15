@@ -14,13 +14,13 @@ body {
 .content {
   width: 20rem;
   height: 35rem;
-  border-radius: 0.8rem;
+  border-radius: 0.4rem;
   overflow: hidden;
   position: absolute;
   top: 2rem;
   left: 50%;
   transform: translate(-50%);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
